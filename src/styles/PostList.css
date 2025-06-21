@@ -1,0 +1,26 @@
+.post-list {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.post-list .post-card {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  transition: transform 0.2s;
+}
+
+.post-list .post-card:hover {
+  transform: translateY(-5px);
+}
+
+body.dark .post-list .post-card {
+  background-color: #2a2a2a;
+  color: white;
+  border: 1px solid #444;
+}
+
