@@ -1,7 +1,7 @@
 # 📝 BlogApp 2.0 — MERN Stack Blog Platform
 
-![GitHub last commit](https://img.shields.io/github/last-commit/shuklashikhar007/BlogApp2.0?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/shuklashikhar007/BlogApp2.0?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/shuklashikhar007/BlogApp2.0FrontEnd?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/shuklashikhar007/BlogApp2.0FrontEnd?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 ![MERN](https://img.shields.io/badge/stack-MERN-blueviolet?style=flat-square)
 
