@@ -41,18 +41,27 @@
 ## 📁 Project Structure
 
 
-/project-root
-│
-├── /frontend # React App
-│ ├── /pages # Login, Register, Create, Edit, SinglePost
-│ ├── /components # Navbar, ProtectedRoute
-│ ├── /styles # CSS for all pages (dark mode support)
-│ └── /api.js # Axios instance
-│
-└── /backend # Node/Express API
-├── /models # User, Post schemas
-├── /routes # Auth & Post APIs
-├── /middleware # JWT Middleware
-└── /server.js # Entry point
+<ul>
+  <li><strong>/project-root</strong>
+    <ul>
+      <li><strong>/frontend</strong> – React App
+        <ul>
+          <li><strong>/pages</strong> – Login, Register, Create, Edit, SinglePost</li>
+          <li><strong>/components</strong> – Navbar, ProtectedRoute</li>
+          <li><strong>/styles</strong> – CSS files with dark mode support</li>
+          <li><strong>/api.js</strong> – Axios instance for backend API calls</li>
+        </ul>
+      </li>
+      <li><strong>/backend</strong> – Node/Express API
+        <ul>
+          <li><strong>/models</strong> – User & Post Mongoose schemas</li>
+          <li><strong>/routes</strong> – Auth and Post route handlers</li>
+          <li><strong>/middleware</strong> – JWT authentication middleware</li>
+          <li><strong>/server.js</strong> – Entry point for the backend server</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
 
 
